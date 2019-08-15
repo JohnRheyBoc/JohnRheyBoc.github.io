@@ -1,0 +1,49 @@
+.parallax-wrapper {
+    /* width: 100vw;
+    height:100vh;
+    padding-top:20vh; */
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+.regular-wrapper {
+    margin: 0 auto;
+    width: 100vw;
+    height:100vh;
+    padding-top:20vh;
+    z-index: 2;
+    position: relative;
+    background: white;
+}
+.content {
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+    background: #aaa;
+}
+.parallax-wrapper::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    transform:translateZ(-1px) scale(2);
+}
+
+html {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x:hidden;
+    overflow-y:auto;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Raleway|Righteous');
+
+body {
+    font-family: 'Righteous', cursive;
+    color: #373737;
+}
+
+.righteous {
+    font-family: 'Righteous', cursive;
+}
+
+.press-start{
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.header {
+
+}
+
+.shadow-solid-left {
+    -webkit-box-shadow: -10px 10px 0 0 rgba(0,0,0,1);
+    -moz-box-shadow: -10px 10px 0 0 rgba(0,0,0,1);
+    box-shadow: -10px 10px 0 0 rgba(0,0,0,1);
+}
+
+.shadow-solid-right {
+    -webkit-box-shadow: 10px 10px 0 0 rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 0 0 rgba(0,0,0,1);
+    box-shadow: 10px 10px 0 0 rgba(0,0,0,1);
+}
+
+.outline-none {
+     outline: none !important;
+}
+
+.parallax-div {
+    width: 100%;
+}
+
+.parallax-window {
+    height: inherit;
+    background: transparent;
+}
+
+.parallax-inside {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.text-black {
+    color: black;
+}
+
+.bg-lg-transparent {
+    background: transparent;
+}
+
+.parallax-img-header {
+    height: 500px;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .bg-lg-transparent {
+        background: white;
+    }
+}
+
+@media (min-width: 576px) {
+    .parallax-img-header {
+        height: 500px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .parallax-img-header {
+        height: 500px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .parallax-img-header {
+        height: 500px;
+        width: calc(100% - 25%);
+    }
+}
+
+
+.typed-cursor {
+    display: none;
+}
+
+/* If fade out option is set */
+.typed-fade-out {
+    display: none;
+}
+
+.card-about {
+    background-image: url('../img/about.jpg');
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-project {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-project:focus {
+    outline: none !important;
+}
+
+.card-project.caramel {
+    background-image: url('../img/projects/caramel.png');
+}
+
+.card-project-details {
+    font-family: 'Righteous', cursive;
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    margin-left: 15px;
+    position: absolute;
+    border: none;
+    -webkit-box-shadow: -10px 10px 0 0 rgb(255, 255, 255);
+    -moz-box-shadow: -10px 10px 0 0 rgb(255, 255, 255);
+    box-shadow: -10px 10px 0 0 rgb(255, 255, 255);
+    width: calc(310px - 100px);
+}
+
+.card-project-details.yummy {
+    -webkit-box-shadow: -10px 10px 0 0 rgb(255, 173, 0);
+    -moz-box-shadow: -10px 10px 0 0 rgb(255, 173, 0);
+    box-shadow: -10px 10px 0 0 rgb(255, 173, 0);
+}
+
+.card-project-details.luyong-pos {
+    -webkit-box-shadow: -10px 10px 0 0 rgb(243, 245, 247);
+    -moz-box-shadow: -10px 10px 0 0 rgb(243, 245, 247);
+    box-shadow: -10px 10px 0 0 rgb(243, 245, 247);
+}
+
+.card-project-details.caramel {
+    -webkit-box-shadow: -10px 10px 0 0 rgb(153, 84, 187);
+    -moz-box-shadow: -10px 10px 0 0 rgb(153, 84, 187);
+    box-shadow: -10px 10px 0 0 rgb(153, 84, 187);
+}
+
+.border-thick {
+    border: 3px solid;
+}
+
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}
+
+.pull-image-container {
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.pull-image-container>.pull-image-frame {
+    position: absolute;
+    height: 100%;
+    padding: 0;
+    top: 0;
+}
+
+.pull-image-container>.pull-image-frame>div {
+    background-size: cover;
+    background-position: left center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    background: url(../img/header.jpg);
+}
+
+.shadow-solid-left.top.white {
+    -webkit-box-shadow: -10px -10px 0 0 rgba(255,255,255,1);
+    -moz-box-shadow: -10px -10px 0 0 rgba(255,255,255,1);
+    box-shadow: -10px -10px 0 0 rgba(255,255,255,1);
+}
+
+.shadow-solid-right.top.white {
+    -webkit-box-shadow: 10px -10px 0 0 rgba(255,255,255,1);
+    -moz-box-shadow: 10px -10px 0 0 rgba(255,255,255,1);
+    box-shadow: 10px -10px 0 0 rgba(255,255,255,1);
+}
+
+.shadow-solid-left.top {
+    -webkit-box-shadow: -10px -10px 0 0 rgb(0, 0, 0);
+    -moz-box-shadow: -10px -10px 0 0 rgb(0, 0, 0);
+    box-shadow: -10px -10px 0 0 rgb(0, 0, 0);
+}
+
+.shadow-solid-right.top {
+    -webkit-box-shadow: 10px -10px 0 0 rgb(0, 0, 0);
+    -moz-box-shadow: 10px -10px 0 0 rgb(0, 0, 0);
+    box-shadow: 10px -10px 0 0 rgb(0, 0, 0);
+}
+
+.navbar-brand {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+    font-size: 35pt;
+    border: black 3px solid
+}
+.navbar-brand:hover {
+    background: black;
+    color: white !important;
+    border: white 3px solid !important;
+}
+
+.border-black {
+    border-color: black !important;
+}
+.slick-slide {
+    outline: none !important;
+}
+
+.bg-black-right-razor {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: black;
+}
+
+.bg-black-right-razor:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform-origin: top left;
+    transform: skewY(4deg);
+    z-index: -1;
+}
+
+.bg-black-left-razor {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: black;
+}
+
+.bg-black-left-razor:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform-origin: bottom right;
+    transform: skewY(4deg);
+    z-index: -1;
+}
